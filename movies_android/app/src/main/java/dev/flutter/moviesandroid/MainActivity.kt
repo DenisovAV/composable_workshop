@@ -1,7 +1,7 @@
 package dev.flutter.moviesandroid
 
-import android.content.Intent
-import android.content.IntentFilter
+/*import android.content.Intent
+import android.content.IntentFilter*/
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -30,16 +30,16 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.viewinterop.AndroidView
+/*import androidx.compose.ui.viewinterop.AndroidView*/
 import dev.flutter.moviesandroid.ui.theme.Movies_androidTheme
-import io.flutter.embedding.android.FlutterView
+/*import io.flutter.embedding.android.FlutterView
 import io.flutter.plugin.common.EventChannel
 import io.flutter.plugin.common.MethodChannel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlin.random.Random
+import kotlin.random.Random*/
 
 class MainActivity : ComponentActivity()/*, EngineBindingsDelegate*/ {
 
