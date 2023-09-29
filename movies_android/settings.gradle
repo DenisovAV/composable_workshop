@@ -7,8 +7,4 @@ pluginManagement {
 }
 rootProject.name = "movies_android"
 include ':app'
-setBinding(new Binding([gradle: this]))
-evaluate(new File(
-        settingsDir.parentFile,
-        'movies_flutter_module/.android/include_flutter.groovy'
-))
+
